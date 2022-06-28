@@ -1,9 +1,9 @@
 <script lang="ts">
   import {page} from '$app/stores';
 
-  const ala: number = 4;
+  const la: number = 4;
 
-  console.log({ala})
+  console.log({la})
 
 </script>
 <!-- TO TEST IT OUT GO ON /foo/123456/4321 -->

@@ -12,10 +12,6 @@ This article is a great start for getting familiar with svelte (especially svelt
 
 <https://medium.com/codex/getting-started-with-sveltekit-369987d924bd>
 
-## CONCISE NOTES
+## CONCISE NOTES (AS CONCISE AS THEY CAN BE)
 
 [_NOTES](/__NOTES/)
-
-
-
-
