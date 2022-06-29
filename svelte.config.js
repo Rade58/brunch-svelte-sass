@@ -1,3 +1,4 @@
+import path from 'path';
 import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
 
@@ -12,7 +13,23 @@ const config = {
 	],
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+
+		// HERE WE CAN SET UP PATH ALIASES
+		vite() {
+			return {
+				resolve: {
+					alias: {
+						// LETS ADD THO ALIASES FOR
+						// ONE FOR /src/util
+						// OTHER FOR /src/components
+
+						$util: path.resolve('./src/util'),
+						$components: path.resolve('./src/components')
+					}
+				}
+			};
+		}
 	}
 };
 
