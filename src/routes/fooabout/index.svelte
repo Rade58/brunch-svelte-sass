@@ -25,6 +25,13 @@
   <h3>Hello my name is {name}</h3>
   <!-- WE CALLED FUNCTION OVERHERE -->
   <h4>{randomNum(100)} greetings</h4>
+  <div class="card w-96 bg-base-100 shadow-xl">
+    <div class="card-body">
+      <h2 class="card-title">Shoes!</h2>
+      <p>If a dog chews shoes whose shoes does he choose?</p>
+    </div>
+    <figure><img src="/foo.png" alt="foo" /></figure>
+  </div>
 </main>
 <aside>
   <h2
