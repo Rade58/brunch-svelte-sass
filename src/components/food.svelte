@@ -14,6 +14,14 @@
 <div>{printFood()}</div>
 
 <aside>
-  <h1>{color}</h1>
-  <h1>{count}</h1>
+  <!-- THIS IS IF ELSE STATEMENT -->
+  {#if color === "crimson"}
+    <h1>Hello World</h1>
+  {:else}
+    <h1>Hello Mars</h1>
+  {/if}
+  <!-- THIS IS ONLY IF STATEMENT -->
+  {#if count === 6}
+    <h2>Hello counter</h2>
+  {/if}
 </aside>

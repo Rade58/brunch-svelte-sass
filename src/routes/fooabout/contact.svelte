@@ -5,5 +5,5 @@
 
 <h1>Contact</h1>
 <h1>
-  <Food color="crimson" count={46} />
+  <Food color="crimso" count={6} />
 </h1>
