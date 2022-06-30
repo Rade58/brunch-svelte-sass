@@ -1,6 +1,8 @@
 import path from 'path';
 import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
+// THIS IS ADAPTER WE ARE IMPORTING
+import node from '@sveltejs/adapter-node';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -13,7 +15,10 @@ const config = {
 	],
 
 	kit: {
-		adapter: adapter(),
+		// INSTEAD OF THIS
+		// adapter: adapter(),
+		// WE WILL USE THIS ADAPTER
+		adapter: node(),
 
 		// HERE WE CAN SET UP PATH ALIASES
 		vite() {
