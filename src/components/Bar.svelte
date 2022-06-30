@@ -1,0 +1,1 @@
+<p class="bg-emerald-500">BAR</p>

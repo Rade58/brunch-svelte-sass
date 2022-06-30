@@ -1,0 +1,1 @@
+<p class="bg-teal-600">BAZ</p>
