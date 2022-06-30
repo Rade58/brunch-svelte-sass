@@ -4,7 +4,7 @@ Sass app built with svelte with the purpose of learning svelte framework.
 
 [Project bootstrapped with `crete-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte) AND SVELTE KIT
 
-## LINKS
+## Svelte kit
 
 [svelte-kit](https://kit.svelte.dev/)
 
@@ -15,3 +15,7 @@ This article is a great start for getting familiar with svelte (especially svelt
 ## CONCISE NOTES (AS CONCISE AS THEY CAN BE)
 
 [_NOTES](/__NOTES/)
+
+# SOME USEFUL LINKS
+
+<https://svelte-workshop.netlify.app/introduction/>
