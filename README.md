@@ -19,3 +19,5 @@ This article is a great start for getting familiar with svelte (especially svelt
 # SOME USEFUL LINKS
 
 <https://svelte-workshop.netlify.app/introduction/>
+
+<https://svelte.dev/tutorial>
