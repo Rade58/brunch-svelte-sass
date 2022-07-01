@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   export let shibaCoin = 2000;
   export let safeMoon = 4600;
 </script>

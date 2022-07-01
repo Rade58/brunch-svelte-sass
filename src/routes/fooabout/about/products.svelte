@@ -1,5 +1,7 @@
 <script lang="ts">
 
+  import Money from '$components/Money.svelte'
+
   let count = 0;
 
   function handleClick(){
@@ -20,5 +22,6 @@
     YOU CAN'T USE TERNARY FOR CONDITIONAL RENDERING OF COMPONENTS
   BUT YOU CAN DO CONDITIONAL RENDERING OF VALUES WITH TERNARY -->
   {count > 5 ? "FOO" : "BAR"}
+  <Money/>
 </section>
 
