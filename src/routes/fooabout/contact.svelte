@@ -2,16 +2,21 @@
 
   let count = 0;
 
-  // AS count CHANGES, THIS
-  // IS NOT GOING TO BE CHANGED
-  // ONLY WILL HAVE VALUE WITH WHOOM IT IS INITIALIZED
-  // AND THAT IS      0  TIMES   2
   let doubleFirst = count * 2;
 
-  // BUT THIS ONE THAT I LABLED WITH $  WILL BE CHANGED
-  // AS count CHANGES
+  $: doubleSecond = count * 2;
+  
+  // LIKE THIS
+  $: console.log({doubleSecond})
 
-  $: doubleSecond = count * 2; 
+  $: if(doubleSecond > 6) console.log("above six")
+
+  // IF YOU WANT TO DEFINE MORE THINGS YOU CAN
+  // WRAP ENTIRETY INSIDE BRACETS
+  $: {
+    const val = prompt("Enter value")
+    alert(val);
+  }
 
 </script>
 
