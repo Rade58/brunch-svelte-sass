@@ -1,5 +1,7 @@
 <script lang="ts">
   
+  import Color from '$components/Color.svelte'
+
   let colors = [
     {id: 1, color: "#ffef96"},
     {id:2, color: "#50394c"},
@@ -16,9 +18,8 @@
 
 <h1>Palette</h1>
 <div>
-  {#each colors as color, i (color.id)}
-    <!-- I ALSO SHOWDED YOU HERE HOW YOU WOULD PASS DYNAMIC STYLES -->
-    <div style="background-color: {color.color}" class={`grid w-32 h-20 rounded text-primary-content place-content-center`}>{color.color}</div> 
+  {#each colors as color, i (color.id) }
+    <Color color={color.color} />
   {/each}
 </div>
 <button
