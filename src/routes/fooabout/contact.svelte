@@ -24,7 +24,9 @@
 </script>
 
 
-<AccentButton>Hello Accent</AccentButton>
+<AccentButton on:click={() => alert("Hello World")}>
+  Press
+</AccentButton>
 
 <button
   class="btn btn-primary"
