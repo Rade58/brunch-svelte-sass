@@ -1,6 +1,7 @@
 <script lang="ts">
 
   import Money from '$components/Money.svelte'
+  import {list} from '$util/list'
 
   let count = 0;
 
