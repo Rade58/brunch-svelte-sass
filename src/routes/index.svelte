@@ -3,7 +3,7 @@
   import Deferred from '$components/Deferred.svelte'
   import Move from '$components/Move.svelte'
   import Once from '$components/Once.svelte'
-  import Parent from '$components/Parent.svelte'
+  import Parent from '$components/GrandParent.svelte'
 </script>
 
 
