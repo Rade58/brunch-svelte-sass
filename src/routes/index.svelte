@@ -3,6 +3,7 @@
   import Deferred from '$components/Deferred.svelte'
   import Move from '$components/Move.svelte'
   import Once from '$components/Once.svelte'
+  import Parent from '$components/Parent.svelte'
 </script>
 
 
@@ -14,5 +15,6 @@
   <Deferred />
   <Move />
   <Once />
+  <Parent />
 
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
