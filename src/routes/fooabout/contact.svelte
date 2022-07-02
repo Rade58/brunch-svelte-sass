@@ -1,5 +1,8 @@
 <script lang="ts">
 
+  import AccentButton from '$components/AccentButton.svelte'
+
+
   let count = 0;
 
   let doubleFirst = count * 2;
@@ -14,12 +17,14 @@
   // IF YOU WANT TO DEFINE MORE THINGS YOU CAN
   // WRAP ENTIRETY INSIDE BRACETS
   $: {
-    const val = prompt("Enter value")
-    alert(val);
+    // const val = prompt("Enter value")
+    // alert(val);
   }
 
 </script>
 
+
+<AccentButton>Hello Accent</AccentButton>
 
 <button
   class="btn btn-primary"

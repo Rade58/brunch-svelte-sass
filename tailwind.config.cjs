@@ -7,7 +7,7 @@ const config = {
 		extend: {}
 	},
 	daisyui: {
-		themes: ['lofi', 'night']
+		themes: ['pastel', 'night']
 	},
 
 	plugins: [daisyui]
