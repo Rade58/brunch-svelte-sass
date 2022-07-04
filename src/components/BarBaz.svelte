@@ -15,5 +15,5 @@
 </div>
 
 <div>
-  
+  {yes? "Checked":"Unchecked"}
 </div>
