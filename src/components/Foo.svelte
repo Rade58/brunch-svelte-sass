@@ -35,4 +35,12 @@
   class="range range-primary" 
 />
 
+<br />
 
+<!-- BECAUSE YOU HAVE NUMBERS YOU CAN DO 
+  SOMETHING LIKE THIS -->
+
+<div>
+  <h1>Result</h1>
+  
+</div>
