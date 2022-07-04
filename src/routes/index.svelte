@@ -6,6 +6,7 @@
   import Parent from '$components/GrandParent.svelte'
   import Foo from '$components/Foo.svelte'
   import BarBaz from '$components/BarBaz.svelte'
+  import RadioGroup from '$components/RadioGroup.svelte'
 </script>
 
 
@@ -21,5 +22,6 @@
   <Foo />
   <!--  -->
   <BarBaz />
+  <RadioGroup />
 
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
