@@ -7,9 +7,8 @@
     <span class="label-text">Remember me</span> 
     <input
       type="checkbox"
-      checked={false} 
       class="checkbox checkbox-primary"
-      bind:value={yes}  
+      bind:checked={yes}  
     />
   </label>
 </div>
