@@ -42,5 +42,7 @@
 
 <div>
   <h1>Result</h1>
-  
+  {#if numericValue !== undefined && rangeValue !== undefined }
+    <h2>{numericValue + rangeValue}</h2>
+  {/if}
 </div>
