@@ -5,6 +5,7 @@
   import Once from '$components/Once.svelte'
   import Parent from '$components/GrandParent.svelte'
   import Foo from '$components/Foo.svelte'
+  import BarBaz from '$components/BarBaz.svelte'
 </script>
 
 
@@ -18,5 +19,7 @@
   <Once />
   <Parent />
   <Foo />
+  <!--  -->
+  <BarBaz />
 
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
