@@ -27,7 +27,7 @@
   multiple
   bind:value={selected}
   class="select w-full max-w-xs"
-  on:change="() => {someValue === "shiba"? (someValue = "inu"): (someValue = "shiba")}"
+  on:change={() => {someValue === "shiba"? (someValue = "inu"): (someValue = "shiba")}}
 >
   <option disabled selected>Pick your favorite Simpsons</option>
   {#each simpsons as item (item.id)}
