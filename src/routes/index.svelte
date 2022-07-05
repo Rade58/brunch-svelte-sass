@@ -1,4 +1,5 @@
 <script>
+  import Simpsons from '$components/Simpsons.svelte'
   import Some from '$components/Some.svelte'
   import Deferred from '$components/Deferred.svelte'
   import Move from '$components/Move.svelte'
@@ -16,7 +17,9 @@
 
 <h1>Welcome to SvelteKit</h1>
 
-<Area />
+  <Simpsons />
+
+  <Area />
   <Some />
   <Deferred />
   <Move />
