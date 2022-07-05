@@ -8,6 +8,7 @@
   import BarBaz from '$components/BarBaz.svelte'
   import RadioGroup from '$components/RadioGroup.svelte'
   import CheckGroup from '$components/CheckGroup.svelte'
+  import Area from '$components/Area.svelte'
 </script>
 
 
@@ -15,6 +16,7 @@
 
 <h1>Welcome to SvelteKit</h1>
 
+<Area />
   <Some />
   <Deferred />
   <Move />
