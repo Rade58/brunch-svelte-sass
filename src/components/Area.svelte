@@ -3,7 +3,7 @@
   import {marked} from 'marked'
 
 
-  let markdown = "";
+  let value = "";
 
 
 
@@ -11,11 +11,11 @@
 
 <textarea
   class="textarea textarea-primary"
-  bind:value={markdown}
+  bind:value
 />
 
 
 <div>
-  {@html marked(markdown)}
+  {@html marked(value)}
 </div>
 
