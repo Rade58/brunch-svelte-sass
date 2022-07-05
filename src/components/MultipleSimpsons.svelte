@@ -12,6 +12,14 @@
 
   $: console.log({selected})
 
+  // LETS ALSO CHANGE THIS VALUE
+  // WHEN SELECT ELEMENTS CHANGES
+  // I,M JUST DOING THIS T OSHOW YOU IT S POSSIBLE
+  // IT CAN BE USEFUL TOO
+  let someValue: string;
+  // 
+  $: console.log({someValue})
+
 </script>
 
 
@@ -19,6 +27,7 @@
   multiple
   bind:value={selected}
   class="select w-full max-w-xs"
+  on:change="() => {someValue === "shiba"? (someValue = "inu"): (someValue = "shiba")}"
 >
   <option disabled selected>Pick your favorite Simpsons</option>
   {#each simpsons as item (item.id)}
