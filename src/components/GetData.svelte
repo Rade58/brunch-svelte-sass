@@ -1,12 +1,3 @@
-# LIFECYCLE
-
-YOU KNOW WHAT ARE WE TALKING ABOUT
-
-# onMount
-
-<https://svelte.dev/tutorial/onmount>
-
-```svelte
 <script lang="ts">
 
   import {onMount} from 'svelte'
@@ -28,8 +19,4 @@ YOU KNOW WHAT ARE WE TALKING ABOUT
   {JSON.stringify({data}, null, 2)}
  </pre>   
 {/if}
-```
-
-
-
 
