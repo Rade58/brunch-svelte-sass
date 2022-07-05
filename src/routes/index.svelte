@@ -12,6 +12,7 @@
   import CheckGroup from '$components/CheckGroup.svelte'
   import Area from '$components/Area.svelte'
   import Editable from '$components/Editable.svelte'
+  import EBindz from '$components/EBindz.svelte'
 </script>
 
 
@@ -38,5 +39,9 @@
   <br />
 
   <Editable />
+
+  <br />
+
+  <EBindz />
 
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
