@@ -11,6 +11,7 @@
   import RadioGroup from '$components/RadioGroup.svelte'
   import CheckGroup from '$components/CheckGroup.svelte'
   import Area from '$components/Area.svelte'
+  import Editable from '$components/Editable.svelte'
 </script>
 
 
@@ -34,5 +35,8 @@
   <BarBaz />
   <RadioGroup />
   <CheckGroup />
+  <br />
+
+  <Editable />
 
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
