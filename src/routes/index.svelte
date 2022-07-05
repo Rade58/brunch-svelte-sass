@@ -7,6 +7,7 @@
   import Foo from '$components/Foo.svelte'
   import BarBaz from '$components/BarBaz.svelte'
   import RadioGroup from '$components/RadioGroup.svelte'
+  import CheckGroup from '$components/CheckGroup.svelte'
 </script>
 
 
@@ -23,5 +24,6 @@
   <!--  -->
   <BarBaz />
   <RadioGroup />
+  <CheckGroup />
 
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
