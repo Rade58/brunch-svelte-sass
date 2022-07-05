@@ -21,6 +21,6 @@
 >
   <option disabled selected>Pick your favorite Simpson</option>
   {#each simpsons as item (item.id)}
-    <option value={item.name}>{item.name}</option>
+    <option value={item}>{item.name}</option>
   {/each}
 </select>
