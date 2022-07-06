@@ -14,6 +14,7 @@
   import Editable from '$components/Editable.svelte'
   import EBindz from '$components/EBindz.svelte'
   import GetData from '$components/GetData.svelte'
+  import Unload from '$components/Unload.svelte'
 </script>
 
 
@@ -46,5 +47,6 @@
   <EBindz />
   <br />
   <GetData />
+  <Unload />
 
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>

@@ -14,6 +14,8 @@
     const res = await fetch("https://random-data-api.com/api/cannabis/random_cannabis?size=30")
   
     data = await res.json()
+
+    console.log({data})
   
   })
 
