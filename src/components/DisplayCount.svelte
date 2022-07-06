@@ -1,10 +1,18 @@
 <script lang="ts">
+  import {onDestroy} from 'svelte'
   import {count} from '$stores/countStore'
 
   let countVal: number;
 
-  count.subscribe((c)  => {
+  const unsubscribe = count.subscribe((c)  => {
     countVal = c;
+  })
+
+
+  onDestroy(() => {
+    if(unsubscribe){
+      unsubscribe()
+    }
   })
 
 </script>
