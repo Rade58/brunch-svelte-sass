@@ -21,6 +21,9 @@
   import Minus from '$components/Minus.svelte'
   import Reset from '$components/Reset.svelte'
   import DisplayCount from '$components/DisplayCount.svelte'
+
+  import CurrTime from '$components/CurrTime.svelte'
+
 </script>
 
 
@@ -60,5 +63,7 @@
   <Minus />
   <Reset />
   <DisplayCount />
+  <br />
+  <CurrTime />
 
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>

@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import {time} from '$stores/timeStore'
 
 
@@ -10,7 +10,6 @@
   })
 
 </script>
-
 
 <h1>Current Time is: {formatter.format($time)}</h1>
 
