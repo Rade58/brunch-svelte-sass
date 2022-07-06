@@ -25,13 +25,20 @@
   import CurrTime from '$components/CurrTime.svelte'
   import SomeInp from '$components/SomeInp.svelte'
 
-  import AnimOne from '$components/AnimOne.svelte' 
+  import AnimOne from '$components/AnimOne.svelte'
+
+  import TranOne from '$components/TranOne.svelte'
+
+
 </script>
 
 
 
 
 <h1>Welcome to SvelteKit</h1>
+
+  <TranOne />
+
 
   <AnimOne />
 
