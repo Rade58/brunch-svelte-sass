@@ -2,21 +2,25 @@
   import {onDestroy} from 'svelte'
   import {count} from '$stores/countStore'
 
-  let countVal: number;
+  // INSTEAD OF THIS
+  // let countVal: number;
 
-  const unsubscribe = count.subscribe((c)  => {
-    countVal = c;
-  })
+  // INSTEAD OF THIS
+  // const unsubscribe = count.subscribe((c)  => {
+    // countVal = c;
+  // })
 
-
-  onDestroy(() => {
-    if(unsubscribe){
-      unsubscribe()
-    }
-  })
+  // AND INSTEAD OF THIS
+  // onDestroy(() => {
+    // if(unsubscribe){
+      // unsubscribe()
+    // }
+  // })
 
 </script>
 
+<!-- WE JUST PREFIX STORE WRITABLE WITH $ -->
 <div>
-  Your count: {countVal}
+  <!-- Your count: {countVal} -->
+  Your count: {$count}
 </div>
