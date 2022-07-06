@@ -9,6 +9,14 @@
 class="input input-bordered input-secondary w-full max-w-xs"
 />
 
+<!-- SEE WHAT I DID -->
+<button on:click={() => $name += "🦉"}
+  class="btn btn-primary"  
+>
+  Add an 🦉!
+</button>
+
+
 {#if $name && $name !== ""}
   <h1>{$greeting}</h1>
 {/if}
