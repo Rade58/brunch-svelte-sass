@@ -3,9 +3,8 @@ import { readable } from 'svelte/store';
 // IN THIS EXAMPL, WE WANT TO INSTANTIATE NEW DATE
 // EVERY SECOND
 
-export const time = readable<Date | null>(
-	// THIS IS A VALUE
-	null,
+export const time = readable<Date>(
+	new Date(),
 	// THIS IS HOW WE DEFINE STATING VALUE
 	(set) => {
 		const intervalId = setInterval(() => {
