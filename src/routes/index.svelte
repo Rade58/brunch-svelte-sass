@@ -23,6 +23,7 @@
   import DisplayCount from '$components/DisplayCount.svelte'
 
   import CurrTime from '$components/CurrTime.svelte'
+  import SomeInp from '$components/SomeInp.svelte'
 
 </script>
 
@@ -31,6 +32,8 @@
 
 <h1>Welcome to SvelteKit</h1>
 
+  <SomeInp />
+  <br />
   <Simpsons />
   <br/>
   <MultipleSimpsons />
