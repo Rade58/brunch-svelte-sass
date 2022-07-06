@@ -1,5 +1,5 @@
 <script lang="ts">
-  import {time} from '$stores/timeStore'
+  import {time, elapsed} from '$stores/timeStore'
 
 
   const formatter = new Intl.DateTimeFormat("en", {
@@ -12,6 +12,8 @@
 </script>
 
 <h1>Current Time is: {formatter.format($time)}</h1>
+
+<h1>Elapsed: {$elapsed}</h1>
 
 
 
