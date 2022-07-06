@@ -22,7 +22,8 @@
 		"paths": {
 			"$lib/*": ["src/lib/*"],
 			"$util/*": ["src/util/*"],
-			"$components/*": ["src/components/*"]
+			"$components/*": ["src/components/*"],
+			"$stores/*": ["src/stores/*"]
 		}
 	}
 }

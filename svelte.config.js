@@ -30,7 +30,8 @@ const config = {
 						// OTHER FOR /src/components
 
 						$util: path.resolve('./src/util'),
-						$components: path.resolve('./src/components')
+						$components: path.resolve('./src/components'),
+						$stores: path.resolve('./src/stores')
 					}
 				}
 			};

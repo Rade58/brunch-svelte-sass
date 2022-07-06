@@ -15,6 +15,12 @@
   import EBindz from '$components/EBindz.svelte'
   import GetData from '$components/GetData.svelte'
   import Unload from '$components/Unload.svelte'
+  // 
+
+  import Plus from '$components/Plus.svelte'
+  import Minus from '$components/Minus.svelte'
+  import Reset from '$components/Reset.svelte'
+  import DisplayCount from '$components/DisplayCount.svelte'
 </script>
 
 
@@ -48,5 +54,11 @@
   <br />
   <GetData />
   <Unload />
+  <br />
+
+  <Plus />
+  <Minus />
+  <Reset />
+  <DisplayCount />
 
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
