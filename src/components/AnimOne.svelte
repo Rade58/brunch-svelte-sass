@@ -14,7 +14,6 @@
       easing: elasticOut
     }
   )
-
 </script>
 
 
