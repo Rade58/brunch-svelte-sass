@@ -1,5 +1,7 @@
 <script lang="ts">
 
+  let toggled = false;
+
 </script>
 
 
@@ -8,6 +10,12 @@ JUST PAY ATTENTION HOW WE ARE ADDING CLASSES -->
 
 
 <img 
-  class="mask mask-heart"
+  class:mask={toggled}
+  class:mask-heart={toggled} 
   src="https://placeimg.com/160/160/arch" 
 />
+
+
+<button class="btn btn-primary" on:click={() => {toggled = !toggled}}>
+  {!toggled? "Make it Heart": "Make It Normal"}
+</button>

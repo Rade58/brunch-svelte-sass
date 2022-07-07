@@ -29,6 +29,7 @@
 
   import TranOne from '$components/TranOne.svelte'
 
+  import SomeThing from '$components/SomeThing.svelte'
 
 </script>
 
@@ -36,6 +37,12 @@
 
 
 <h1>Welcome to SvelteKit</h1>
+
+
+  <SomeThing />
+
+
+  <br />
 
   <TranOne />
 
