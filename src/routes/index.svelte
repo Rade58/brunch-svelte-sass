@@ -31,6 +31,8 @@
 
   import SomeThing from '$components/SomeThing.svelte'
 
+  import RandomStyle from '$components/RandomStyle.svelte'
+
 </script>
 
 
@@ -38,6 +40,9 @@
 
 <h1>Welcome to SvelteKit</h1>
 
+  <RandomStyle />
+
+  <br />
 
   <SomeThing />
 
