@@ -35,6 +35,8 @@
 
   import FooThingTwo from '$components/FooThingTwo.svelte'
 
+  import FooBarThingFour from '$components/FooBarThingFour.svelte'
+
 </script>
 
 
@@ -42,6 +44,7 @@
 
 <h1>Welcome to SvelteKit</h1>
 
+  <FooBarThingFour />
 
   <FooThingTwo />
 
