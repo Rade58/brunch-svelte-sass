@@ -1,20 +1,4 @@
-# COMPOSING COMPONENTS WITH `<slot />`
 
-I ALREADY SHOW YOU HOW TO DO THIS
-
-IT IS LIKE children IN REACT
-
-YOU CAN USE `<slot />` OR `<slot></slot>`
-
-# YOU CAN SPECIFY FALLBACK FOR YOUR SLOT
-
-SEE WHAT I MEAN
-
-```
-touch src/components/FooThingOne.svelte
-```
-
-```svelte
 <!-- EVERYTHING WRAPPED INSIDE SLOT IS GOING TO BE FALLBACK -->
 
 <div>
@@ -25,16 +9,3 @@ touch src/components/FooThingOne.svelte
     </div>
   </slot>
 </div>
-```
-
-```
-touch src/components/FooThingTwo.svelte
-```
-
-```svelte
-
-```
-
-
-
-
