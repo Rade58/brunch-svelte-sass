@@ -33,12 +33,17 @@
 
   import RandomStyle from '$components/RandomStyle.svelte'
 
+  import FooThingTwo from '$components/FooThingTwo.svelte'
+
 </script>
 
 
 
 
 <h1>Welcome to SvelteKit</h1>
+
+
+  <FooThingTwo />
 
   <RandomStyle />
 
