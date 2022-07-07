@@ -2,11 +2,14 @@
 
   let toggled = false;
 
+  // WE RE GOING TO USE VARIABLE NAME 
+  // SAME AS CLASS NAME
+  let mask = false;
+
+
 </script>
 
 
-<!-- WE ARE GOING TO ADD FEW CLASSES WITH A BUTTON
-JUST PAY ATTENTION HOW WE ARE ADDING CLASSES -->
 
 
 <img 
@@ -16,6 +19,21 @@ JUST PAY ATTENTION HOW WE ARE ADDING CLASSES -->
 />
 
 
-<button class="btn btn-primary" on:click={() => {toggled = !toggled}}>
+<!-- HERE WE JUST ADDED class:mask  -->
+<img
+  class:mask
+  class:mask-hexagon-2={mask}
+  src="https://placeimg.com/160/160/arch" 
+  />
+
+
+
+<button 
+  class="btn btn-primary"
+  on:click={() => {
+    toggled = !toggled;
+    mask = !mask;
+  }}
+>
   {!toggled? "Make it Heart": "Make It Normal"}
 </button>
