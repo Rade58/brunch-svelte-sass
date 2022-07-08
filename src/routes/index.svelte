@@ -39,10 +39,13 @@
 
   import BarFooTwo from '$components/BarFooTwo.svelte'
 
-
+  import BazBazOne from '$components/BazBazOne.svelte'
 
 
 </script>
+
+
+<BazBazOne />
 
 <BarFooTwo />
 
